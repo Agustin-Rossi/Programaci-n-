@@ -1,0 +1,34 @@
+*{
+	background-color: lightcyan;
+}
+
+img{
+	margin-left: 1400px;
+	margin-bottom: 300px;
+	border-radius: 30px;
+	border-color: black;
+	position: absolute;
+	
+}
+h1{
+	margin-right: 155px;
+	text-align: right;
+	font-family: sans-serif;
+	text-decoration: underline;
+}
+h3{
+	font-family: sans-serif;
+	margin-left: 20px;
+	padding: 2px;
+	text-decoration: underline;
+}
+h2{
+	font-family: sans-serif;
+	margin-left: 20px;
+	padding: 2px;
+	text-decoration: underline;
+}
+p{
+	padding: 10px;
+	margin: 10px;
+}
