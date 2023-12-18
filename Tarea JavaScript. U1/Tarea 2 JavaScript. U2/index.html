@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Caracteres</title>
+</head>
+<body>
+
+    <textarea id="miTextarea" rows="4" cols="50"></textarea>
+    <p>Caracteres utilizados: <span id="contadorCaracteres">0</span></p>
+
+    <script>
+        // Obtener referencia al textarea y al contador
+        var textarea = document.getElementById("miTextarea");
+        var contador = document.getElementById("contadorCaracteres");
+
+        // Agregar un evento de entrada al textarea
+        textarea.addEventListener("input", function() {
+            // Obtener la longitud del texto en el textarea
+            var longitudTexto = textarea.value.length;
+
+            // Actualizar el contador
+            contador.textContent = longitudTexto;
+        });
+    </script>
+
+</body>
+</html>
